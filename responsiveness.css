@@ -1,0 +1,214 @@
+/** @format */
+
+@media screen and (max-width: 1000px) {
+  section {
+    width: 80%;
+  }
+  .card_btn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  section {
+    width: 100%;
+  }
+  .card_left_section {
+    display: none;
+  }
+  .cards {
+    width: 90%;
+    height: 70vh;
+  }
+  .signup_container {
+    width: 100%;
+    padding-bottom: 2rem;
+    justify-content: flex-end;
+  }
+  .signup_top {
+    display: none;
+  }
+  .signup_main {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .right_cell {
+    display: none;
+  }
+  .signup_left_cell {
+    width: 100%;
+  }
+  .signin_top {
+    display: none;
+  }
+  .signin_container {
+    width: 100%;
+    padding-bottom: 2rem;
+    justify-content: flex-end;
+  }
+  .signin_main {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .right_cell {
+    display: none;
+  }
+  .signin_left_cell {
+    width: 100%;
+  }
+
+  .center_image {
+    position: relative;
+    background-image: url("../assets/android.png");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+  }
+
+  .text_content {
+    position: absolute;
+    color: white;
+    top: 45%; /* Adjust as needed */
+    transform: translate(-30%, 0%);
+    margin-left: 2%;
+    padding-top: 18%;
+  }
+
+  .mobupper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 5%;
+    padding: 3%;
+  }
+
+  .mobupper .fa-arrow-left {
+    color: white;
+  }
+
+  .backicon {
+    width: 50%;
+    font-size: x-large;
+  }
+
+  .join_btn {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .btnn {
+    white-space: nowrap;
+    width: 70%;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .signup_container .signup_cross_icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -70%;
+  }
+  .signup_container .signup_cross_icon i {
+    margin-top: 115px !important;
+    color: black;
+    z-index: 100;
+  }
+  .signup_container .signin_cross_icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -70%;
+  }
+  .signup_container .signin_cross_icon i {
+    margin-top: 115px !important;
+    color: black;
+    z-index: 100;
+    font-size: 2rem;
+  }
+
+  .container_fluid {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search_formInput {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .side_txt {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  section {
+    width: 100%;
+  }
+
+  .center_image {
+    position: relative;
+    height: 60vh;
+    background-image: url("../assets/android.png");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 77%;
+    background-repeat: no-repeat;
+  }
+
+  .text_content {
+    position: absolute;
+    color: white;
+    top: 45%; /* Adjust as needed */
+    transform: translate(-30%, 0%);
+    margin-left: 2%;
+    padding-top: 18%;
+  }
+
+  .signup_container .sign_cross_icon {
+    top: 20%;
+    right: 4%;
+  }
+  .signin_modal {
+    top: 15%;
+  }
+
+  .edit_logo {
+    display: flex;
+    z-index: 20;
+    position: fixed;
+    /* top: 0%; */
+    height: 100px;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+  }
+}
